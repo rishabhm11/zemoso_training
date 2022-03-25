@@ -6,10 +6,10 @@ class employ1{
     private String Designation;
     protected String Department;
 
-    public static void Identity{
+    public void Identity(){
         System.out.println("My name is "+name+" and my id number is "+id+". I am designated as "+Designation+" in "+Department+" deapartment.");
     }
-    public static void printid(int id){
+    public void printid(int id){
         System.out.println("---------------------");
         System.out.println("   ID:"+id);
         System.out.println("---------------------");
@@ -23,7 +23,7 @@ class employ2{
     private String Designation;
     protected String Department;
 
-    public static void Identity{
+    public void Identity(){
         System.out.println("My name is "+name+" and my id number is "+id+". I am designated as "+Designation+" in "+Department+" deapartment.");
     }
 }
