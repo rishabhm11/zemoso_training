@@ -19,25 +19,25 @@ class getStockPrice{
 interface getStockPrice1{
     public void getprice(String stock, String service);
 }
-class email extends getStockPrice1{
+class email implements getStockPrice1 {
     @Override
     public void getprice(String stock, String service){
         //logic
     }
 }
-class sms extends getStockPrice1{
+class sms implements getStockPrice1{
     @Override
     public void getprice(String stock, String service){
         //logic
     }
 }
-class whatsapp extends getStockPrice1{
+class whatsapp implements getStockPrice1{
     @Override
     public void getprice(String stock, String service){
         //logic
     }
 }
-class telegram extends getStockPrice1{
+class telegram implements getStockPrice1{
     @Override
     public void getprice(String stock, String service){
         //logic
