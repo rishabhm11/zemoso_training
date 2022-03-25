@@ -34,7 +34,7 @@ class printer{
         System.out.println("---------------------");
     }
 }
-//********************
+//*********************
 public class single_responsibility {
 //the example one is the violation of the single responsibility as it is carrying two functions of different responsibilities
 // the example two is the example of how single responsible principle works by dividing up the work.
