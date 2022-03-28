@@ -1,5 +1,5 @@
 package com.zemoso;
-
+//------------------------------------SINGLE RESPONSIBILITY----------------------------------------------
 interface services {
     public void booking(int custID, String start, String destination);
     public void cancelation(int custID, int ticketID);
@@ -15,6 +15,7 @@ interface notification{
     public void ticketDetails(int ticketID);
     public void transaction(int ticketID);
 }
+//------------------------------------------------------------------------------------------------------------------
 //------------------------------------OPEN / CLOSED-----------------------------------------------------------------
 //suppose we have to add feature of sending notification using mobile and whatsapp
 //instead of modifying in the notification interface we will implement it
@@ -49,7 +50,6 @@ class WhatsappNotification implements notification {
     }
 }
 //-------------------------------------------------------------------------------------------------------
-
 //-----------------------------LISKOV SUBSTITUTION-------------------------------------------------------
 interface agency {
     public void Driver();
@@ -91,7 +91,6 @@ class mehtaTravels implements agency,tempo{
 }
 // here substition is possible because it doesn't disturb the behaviour ofd the program
 //---------------------------------------------------------------------------------------------
-
 //-----------------------INTERFACE SEGREGATION-------------------------------------------------
 interface canceledAmount{
     public void getMoney(int ticketID);
@@ -118,7 +117,6 @@ class refundpolicy2 implements canceledAmount{
 // we have implemented different interfaces for different task
 // therefore it will not create compulsion to any class to implement all of the properties
 //----------------------------------------------------------------------------------------------
-
 //------------------------Dependency Inversion -------------------------------------------------
 interface paymentMethod{
     public void pay(int amount);
