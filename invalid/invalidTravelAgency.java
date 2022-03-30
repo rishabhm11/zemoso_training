@@ -1,4 +1,4 @@
-package com.zemoso;
+package com.zemoso.invalid;
 
 class services {
     public void booking(int custID, String start, String destination){
@@ -112,7 +112,7 @@ class upi {
 }
 class paymentManager{
     private cash cash;
-    public paymentManager(paymentMethod cash){
+    public paymentManager(cash cash){
         this.cash=cash;
     }
     public void makeTransaction(int amount){
