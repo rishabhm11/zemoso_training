@@ -74,98 +74,82 @@ public class Student {
         studentList.add(new Student(255, "Ali Baig", 17, "Male", "Electronic", 2018, 88.4));
         studentList.add(new Student(266, "Sanvi Pandey", 17, "Female", "Electric", 2019, 72.4));
         studentList.add(new Student(277, "Anuj Chettiar", 18, "Male", "Computer Science", 2017, 57.5));
-        // question 1
+        // answer 1
 //        studentList.stream()
 //                .map(Student::getDepartment)
 //                .distinct()
 //                .forEach(System.out::println);
-//        //question 2
+//        //answer 2
 //        studentList.stream()
 //                .filter(s -> s.getYearOfEnrollment()>2018)
 //                .map(Student ::getName)
-//                .forEach(System.out :: println);
-        //question 3
+//                .forEach(System.out::println);
+        //answer 3
 //        studentList.stream()
 //                .filter(s -> s.getDepartment()=="Computer Science")
 //                .filter(s -> s.getGender()=="Male")
-//              .map(Student ::getName)
-//                .forEach(System.out :: println);
-        //question 4
+//                .map(Student ::getName)
+//                .forEach(System.out::println);
+        //answer 4
 //        Map<String ,Long> countMaleFemale=
-//               studentList.stream()
-//                       .collect(Collectors.groupingBy(Student :: getGender,Collectors.counting()));
-//        System.out.println(countMaleFemale);
+//                  studentList.stream()
+//                  .collect(Collectors.groupingBy(Student :: getGender,Collectors.counting()));
+//                  System.out.println(countMaleFemale);
 
-        //question 5
+        //answer 5
 //        Map<String ,Double> averageAgeOfMaleAndFemale=
-//                studentList.stream()
-//                        .collect(Collectors.groupingBy(Student::getGender,Collectors.averagingDouble(Student::getAge)));
-//        System.out.println(averageAgeOfMaleAndFemale);
-        //question 6
+//                  studentList.stream()
+//                  .collect(Collectors.groupingBy(Student::getGender,Collectors.averagingDouble(Student::getAge)));
+//                   System.out.println(averageAgeOfMaleAndFemale);
+        //answer 6
 //        Optional<Student> highestPercentageStudentWrapper=
-//                studentList.stream()
-//                        .collect(Collectors.maxBy(Comparator.comparingDouble(Student::getPerTillDate)));
-//        Student studentHighestPercent=highestPercentageStudentWrapper.get();
-//        System.out.println("Details Of Highest Percentage Student : ");
-//
-//        System.out.println("==================================");
-//
-//        System.out.println("ID : "+studentHighestPercent.getId());
-//
-//        System.out.println("Name : "+studentHighestPercent.getName());
-//
-//        System.out.println("Age : "+studentHighestPercent.getAge());
-//
-//        System.out.println("Gender : "+studentHighestPercent.getGender());
-//
-//        System.out.println("Department : "+studentHighestPercent.getDepartment());
-//
-//        System.out.println("Year Of Enrollment  : "+studentHighestPercent.getYearOfEnrollment());
-//
-//        System.out.println("percentage : "+studentHighestPercent.getPerTillDate());
+//                  studentList.stream()
+//                  .collect(Collectors.maxBy(Comparator.comparingDouble(Student::getPerTillDate)));
+//                  Student studentHighestPercent=highestPercentageStudentWrapper.get();
+//                  System.out.println("Details Of Highest Percentage Student : ");
+//                  System.out.println("==================================");
+//                  System.out.println("ID : "+studentHighestPercent.getId());
+//                  System.out.println("Name : "+studentHighestPercent.getName());
+//                  System.out.println("Age : "+studentHighestPercent.getAge());
+//                  System.out.println("Gender : "+studentHighestPercent.getGender());
+//                  System.out.println("Department : "+studentHighestPercent.getDepartment());
+//                  System.out.println("Year Of Enrollment  : "+studentHighestPercent.getYearOfEnrollment());
+//                  System.out.println("percentage : "+studentHighestPercent.getPerTillDate());
 
-        //question 7
+        //answer 7
 //        Map<String,Long> studentCountByDepartment=
 //        studentList.stream()
 //                .collect(Collectors.groupingBy(Student::getDepartment,Collectors.counting()));
 //        Set<Map.Entry<String,Long>>entrySet=studentCountByDepartment.entrySet();
 //        for(Map.Entry<String,Long>entry : entrySet){
-//            System.out.println(entry.getKey() +" : " +entry.getValue());
-        //question 8
+//        System.out.println(entry.getKey() +" : " +entry.getValue());
+        //answer 8
 //        Map<String, Double> avgPercentageOfDepartments=
 //                studentList.stream().collect(Collectors.groupingBy(Student::getDepartment, Collectors.averagingDouble(Student::getPerTillDate)));
 //
 //        Set<Map.Entry<String, Double>> entrySet = avgPercentageOfDepartments.entrySet();
-//
 //        for (Map.Entry<String, Double> entry : entrySet)
 //        {
 //            System.out.println(entry.getKey()+" : "+entry.getValue());
 //        }
 
-        //question 9
+        //answer 9
 //        Optional<Student> youngestMaleStudentInElectronicsWrapper=
 //                studentList.stream()
 //                        .filter(e -> e.getGender()=="Male" && e.getDepartment()=="Electronic")
 //                        .min(Comparator.comparingInt(Student::getAge));
 //        Student youngestMaleStudentInElectronics=youngestMaleStudentInElectronicsWrapper.get();
-//       System.out.println("Details Of Highest Percentage Student : ");
-//
-//       System.out.println("==================================");
-//
+//        System.out.println("Details Of Highest Percentage Student : ");
+//        System.out.println("==================================");
 //        System.out.println("ID : "+youngestMaleStudentInElectronics.getId());
-//
 //        System.out.println("Name : "+youngestMaleStudentInElectronics.getName());
-//
-//       System.out.println("Age : "+youngestMaleStudentInElectronics.getAge());
-//
-//       System.out.println("Gender : "+youngestMaleStudentInElectronics.getGender());
-//
+//        System.out.println("Age : "+youngestMaleStudentInElectronics.getAge());
+//        System.out.println("Gender : "+youngestMaleStudentInElectronics.getGender());
 //        System.out.println("Department : "+youngestMaleStudentInElectronics.getDepartment());
-//       System.out.println("Year Of Enrollment  : "+youngestMaleStudentInElectronics.getYearOfEnrollment());
-//
-//       System.out.println("percentage : "+youngestMaleStudentInElectronics.getPerTillDate());
+//        System.out.println("Year Of Enrollment  : "+youngestMaleStudentInElectronics.getYearOfEnrollment());
+//        System.out.println("percentage : "+youngestMaleStudentInElectronics.getPerTillDate());
 
-        //question 10
+        //answer 10
 //        Map<String ,Long> countMaleFemale=
 //             studentList.stream()
 //                     .filter(s -> s.getDepartment()=="Computer Science")
