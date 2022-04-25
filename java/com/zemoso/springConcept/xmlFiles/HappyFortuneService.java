@@ -1,4 +1,4 @@
-package com.zemoso.springConcept;
+package com.zemoso.springConcept.xmlFiles;
 
 public class HappyFortuneService implements FortuneService {
     @Override

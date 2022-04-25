@@ -1,6 +1,6 @@
-package com.zemoso.springConcept;
+package com.zemoso.springConcept.xmlFiles;
 
-public class CricketCoach implements Coach{
+public class CricketCoach implements Coach {
     private FortuneService fortuneService;
     private String email;
     private String team;

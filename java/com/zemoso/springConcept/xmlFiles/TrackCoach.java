@@ -1,6 +1,6 @@
-package com.zemoso.springConcept;
+package com.zemoso.springConcept.xmlFiles;
 
-public class TrackCoach implements Coach{
+public class TrackCoach implements Coach {
     private FortuneService fortuneService;
     public TrackCoach(FortuneService fortuneService){
         this.fortuneService=fortuneService;

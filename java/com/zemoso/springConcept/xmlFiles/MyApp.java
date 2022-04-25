@@ -1,4 +1,4 @@
-package com.zemoso.springConcept;
+package com.zemoso.springConcept.xmlFiles;
 
 public class MyApp {
     public static void main(String[] args){

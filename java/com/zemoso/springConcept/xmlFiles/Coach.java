@@ -1,4 +1,4 @@
-package com.zemoso.springConcept;
+package com.zemoso.springConcept.xmlFiles;
 
 public interface Coach {
     public String getTraining();
