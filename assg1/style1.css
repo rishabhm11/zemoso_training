@@ -1,0 +1,91 @@
+.number .one-one {
+    position: absolute;
+    left: -16px;
+    height: 40px;
+    width: 20px;
+    background: #fff;
+    border-radius: 3px;
+    transform: rotate(50deg);
+
+}
+
+.number .one-two {
+    height: 100px;
+    width: 24px;
+    background: #fff;
+    border-radius: 3px;
+    
+}
+
+.number .zero-one, .number .zero-two {
+    position: absolute;
+    z-index: 8;
+    top: 0;
+    left: 17px;
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 24px solid #fff;
+    box-shadow: 0 0 13px 0 rgb(0 0 0 / 20%);
+}
+
+.number .zero-two {
+    z-index: 9;
+    left: 100px;
+}
+
+.big {
+    position: relative;
+    z-index: 20;
+    display: block;
+    font-size: 82px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 6px;
+}
+
+.small {
+    position: relative;
+    z-index: 20;
+    display: block;
+    font-size: 23px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+}
+
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    background: #43389F;
+    background: linear-gradient(to top right, #43389F 0%, #4ec6ca 100%);
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+div {
+    display: block;
+}
+
+.center {
+    position: absolute;
+    top: 50.8%;
+    left: 50.5%;
+    transform: translate(-50%, -50%);
+}
+
+.number {
+    position: relative;
+    height: 100px;
+    width: 200px;
+}

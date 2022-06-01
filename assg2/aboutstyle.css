@@ -1,0 +1,77 @@
+.main {
+    width: max;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-align: center;
+    background-color: #efc3e6;
+    padding-right: 5px;
+}
+
+
+
+a { 
+    margin: auto;
+    width: 20%;
+    text-decoration: none;
+    font-family: Cambria, serif;
+    font-size: 18px;
+    padding: 10px;
+    color: black;
+}
+
+a:hover {
+    text-transform: normal;
+    letter-spacing: normal;
+    color: #006494;
+}
+
+.active {
+    background-color: #9c89b8;
+}
+
+.positioner{
+    margin-left: 20px;
+    width: max-content;
+}
+
+.image {
+    margin-top: 5px;
+    zoom: 120%;
+    width: 170px;
+    height: 300px;
+    align-content:flex-start;
+    position:relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.description {
+    margin-top: 100px;
+    padding-top: 10px;
+    display: flex;
+    box-shadow: 10px 10px 12px 10px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color:black;
+}
+
+.title {
+    color: orangered;
+    font-size:18px;
+}
+body{
+    background-color: #b2f7ef;
+    /* background-image: url("https://i0.wp.com/blogs.perficient.com/files/typing-on-laptop@1x.jpg.jpg?resize=600%2C400&ssl=1"); */
+}
+.description a{
+    padding: 0;
+    background-color: #dee2ff;
+}
+.details{
+    width: max-content;
+    flex-grow: 1;
+}

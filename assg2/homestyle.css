@@ -1,0 +1,48 @@
+.main {
+    width: max;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-align: center;
+    background-color: #efc3e6;
+    padding-right: 5px;
+}
+
+
+
+a { 
+    margin: auto;
+    width: 20%;
+    text-decoration: none;
+    font-family: Cambria, serif;
+    font-size: 18px;
+    padding: 10px;
+    color: black;
+}
+
+a:hover {
+    text-transform: normal;
+    letter-spacing: normal;
+    color: #006494;
+}
+
+.active {
+    background-color: #9c89b8;
+}
+
+.code1{
+    margin-left:33%;
+    margin-top: 100px;;
+    width: 30%;
+    height: 30%;
+    z-index: 8;
+    
+}
+
+.code{
+display: flex;
+}
+
+body{
+    background-image: url("https://cutewallpaper.org/21/hd-website-backgrounds/Autodesk-Wallpaper-Website-Background-Hd-Wallpapers-.jpg");
+}

@@ -1,0 +1,165 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 1px 2px 10px 0px rgb(0 0 0 / 30%);
+    background: #264057;
+    color: #666666;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+}
+.panel {
+    position: absolute;
+    z-index: 2;
+    height: 300px;
+    width: 300px;
+    top: 50px;
+    left: 50px;
+    background: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px 0 rgb(0 0 0 / 30%);
+    transition: all 0.5s ease-in-out;
+}
+.header {
+    height: 60px;
+    width: 100%;
+    background: #5F98CD;
+}
+.menu-icon {
+    position: absolute;
+    width: 29px;
+    height: 15px;
+    top: 23px;
+    left: 20px;
+    cursor: pointer;
+}
+.title {
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+}
+.search-input {
+    box-sizing: border-box;
+    position: absolute;
+    top: 13px;
+    right: 55px;
+    width: 230px;
+    height: 34px;
+    border-radius: 17px;
+    border: none;
+    background: #fff;
+    padding: 0 17px;
+    font-size: 13px;
+    color: #666;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(15px);
+    opacity: 0;
+    pointer-events: none;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.line {
+    position: absolute;
+    top: 0;
+    left: 27px;
+    bottom: 0;
+    width: 3px;
+    background: #EBEBEB;
+}
+.search-icon {
+    position: absolute;
+    z-index: 2;
+    font-size: 21px;
+    color: #B2DAFF;
+    top: 18px;
+    right: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.panel .notifications .notification {
+    position: relative;
+    z-index: 2;
+    margin: 25px 20px 25px 43px;
+}
+.panel .show-menu {
+    transform: translate3d(150px, 0, 0);
+}
+.notifications {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+.circle {
+    box-sizing: border-box;
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    background: #fff;
+    border: 2px solid #5F98CD;
+    box-shadow: 0 0 0 3px #fff;
+    border-radius: 6px;
+    top: 0;
+    left: -20px;
+}
+.time {
+    display: block;
+    font-size: 11px;
+    line-height: 11px;
+    margin-bottom: 2px;
+}
+.menu {
+    position: absolute;
+    width: 170px;
+    height: 270px;
+    top: 65px;
+    left: 50px;
+    background: #43627D;
+    border-radius: 3px;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(20px, 0, 0);
+}
+div {
+    display: block;
+}
+input {
+    writing-mode: horizontal-tb !important;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+}
